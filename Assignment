@@ -1,0 +1,28 @@
+import java.util.Scanner;
+/**
+ *This is edureka Java pre-requisite for NIT BigData Curriculum 
+ */
+
+/**
+ * @author musharique
+ *This is the Assignment.
+ *18% on total amount and shows the final amount.
+ */
+public class assignment {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) 
+	{
+		 double a,b,c;
+		 Scanner in = new Scanner(System.in);
+		 System.out.println("enter the amount ");
+		 a = in.nextInt();
+		 b=a*0.18;
+		 System.out.println("tax amount is : "+ b);
+		 c=a+b;
+		 System.out.println("total amount is : " +c);
+	}
+
+}
